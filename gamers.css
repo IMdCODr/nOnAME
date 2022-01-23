@@ -1,250 +1,151 @@
-            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
-            /* @import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');*/
-            
-            @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-            body {
-                margin: 0px;
-                /* background-image: radial-gradient(pink, rgb(180, 108, 120)) */
-            }
-            
-             ::-webkit-scrollbar {
-                width: 7px;
-                /* height: 20px; */
-            }
-            
-             ::-webkit-scrollbar-track {
-                box-shadow: inset 0 0 5px rgb(95, 29, 29);
-                border-radius: 10px;
-                /* background-color: rgb(233, 155, 155); */
-                background-image: linear-gradient(red, rgb(235, 139, 139));
-            }
-            
-             ::-webkit-scrollbar-thumb {
-                /* background-color: rgb(78, 31, 31); */
-                background-image: linear-gradient(rgb(90, 31, 184), rgb(40, 194, 99));
-                border-radius: 10px;
-            }
-            
-             ::-webkit-scrollbar-thumb:hover {
-                /* background-color: rgb(58, 22, 22); */
-                background-image: linear-gradient(rgb(155, 27, 155), rgb(170, 36, 58));
-            }
-            
-             ::-webkit-scrollbar-thumb:active {
-                /* background-color: rgb(46, 17, 17); */
-                background-image: linear-gradient(rgb(131, 22, 131), rgb(143, 30, 49));
-            }
-            
-            nav {
-                padding: 10px 10px;
-                /* background-image: linear-gradient(rgb(175, 120, 69), rgb(109, 141, 50)); */
-                background-color: black;
-                height: 80px;
-                position: sticky;
-                top: 0px;
-                z-index: 1;
-            }
-            
-            .navbar {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                height: 80px;
-            }
-            
-            .logoimg {
-                /* margin-left: 30px; */
-                color: white;
-                /* font-family: kanit; */
-                /* font-size: 20px; */
-                /* background-color: #000;
-    padding: 0px 10px; */
-                width: 150px;
-                border-radius: 40px;
-                cursor: pointer;
-                filter: invert(1);
-                transform: skew(10deg, 0deg);
-                transition: all 0.5s;
-            }
-            
-            .logoimg:hover {
-                transform: skew(0deg, 0deg);
-            }
-            
-            .listdiv {
-                margin: 0px 50px;
-            }
-            
-            .list {
-                margin: 0px 20px;
-                font-size: 15px;
-                text-decoration: none;
-                color: white;
-                font-family: poppins;
-            }
-            
-            .list:hover {
-                color: rgb(236, 169, 169);
-                /* background-color: #fff; */
-            }
-            
-            .list:active {
-                color: rgb(255, 0, 0);
-                /* background-color: #fff; */
-            }
-            
-            .img img {
-                width: 99.6vw;
-                height: 86.3vh;
-                filter: brightness(0.25);
-            }
-            
-            .welcome {
-                /* border: 1px solid red; */
-                position: absolute;
-                top: 300px;
-                left: 100px;
-                color: white;
-                font-family: sans-serif;
-            }
-            
-            .welcome h1 {
-                background: -webkit-linear-gradient(rgb(255, 2, 255), rgb(133, 164, 211));
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-            
-            .welcome p {
-                width: 60%;
-                font-family: sen;
-            }
-            
-            .jbtn {
-                position: absolute;
-                top: 500px;
-                left: 100px;
-            }
-            
-            .btn {
-                text-decoration: none;
-                padding: 15px 15px;
-                border-radius: 5px;
-                font-family: poppins;
-                font-size: small;
-                color: white;
-                /* background-color: rgb(32, 112, 49); */
-                background-image: linear-gradient(purple, rgb(167, 22, 48));
-                /* box-shadow: 10px 10px #15A354; */
-                transition: all 0.5s;
-            }
-            
-            .btn:hover {
-                /* background-color: rgb(85, 192, 85); */
-                background-image: linear-gradient(rgb(167, 22, 48), purple);
-                /* transition: ease 0.5s; */
-                box-shadow: 10px 10px white;
-                /* background-color: rgb(240, 109, 109); */
-            }
-            
-            .btn:active {
-                background-color: rgb(68, 129, 68);
-                transition: none;
-                /* background-color: rgb(240, 109, 109); */
-            }
-            
-            .og {
-                width: 50%;
-                margin: 150px auto;
-                margin-bottom: 100px;
-                /* border: 1px solid red; */
-                text-align: center;
-            }
-            
-            .why {
-                margin: 150px 50px;
-                font-family: sans-serif;
-            }
-            
-            .pandimg {
-                display: flex;
-                flex-direction: row;
-            }
-            
-            .pandimg p {
-                width: 50%;
-            }
-            
-            .pandimg img {
-                margin-left: 400px;
-                border-radius: 45px;
-                width: 216px;
-                height: 77px;
-            }
-            
-            .cards {
-                margin: auto;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                /* border: 1px solid limegreen; */
-            }
-            /* .card {
-                border: 2px solid red;
-                margin: 0px 20px;
-                width: 100000px;
-                height: 400px;
-            } */
-            
-            .card {
-                /* border: 2px solid red; */
-                border-radius: 20px;
-                box-shadow: 0px 0px 10px rgb(109, 107, 107);
-                margin: 0px 50px;
-                width: 400px;
-                height: 600px;
-                transition: all 0.2s;
-                /* padding: 5px 5px; */
-            }
-            
-            .card:hover {
-                transform: scale(1.02);
-                box-shadow: 0px 0px 10px rgb(0, 0, 0);
-            }
-            
-            .card img {
-                width: 400px;
-                border-top-left-radius: 20px;
-                border-top-right-radius: 20px;
-                margin: 0px 0px;
-            }
-            
-            .card p {
-                font-family: sen;
-                font-size: smaller;
-                width: 360px;
-                margin: 20px 20px;
-                margin-bottom: 30px;
-            }
-            
-            .card h4 {
-                margin: 10px 20px;
-            }
-            
-            .card a {
-                font-family: poppins;
-                margin-left: 280px;
-                text-decoration: none;
-                background-image: linear-gradient(purple, rgb(167, 22, 48));
-                color: white;
-                border-radius: 10px;
-                padding: 10px;
-            }
-            
-            .card a:hover {
-                background-image: linear-gradient(rgb(92, 1, 92), rgb(124, 15, 35));
-            }
-            
-            .card a:active {
-                background-image: linear-gradient(rgb(73, 2, 73), rgb(102, 16, 32));
-            }
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GamerSpot | Home</title>
+    <link rel="stylesheet" href="../css/gamers.css">
+    <link rel="icon" href="../imgs/icon.png">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../imgs/logo.png" alt="GamerSpot" class="logoimg">
+                <!-- <h1>GamerSpot</h1> -->
+            </div>
+            <div class="listdiv">
+                <a href="" class="list">Home</a>
+                <span class="list" onclick="showcards()">GamerSpot</span>
+                <a href="" class="list">About Me</a>
+                <a href="" class="list">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home" id="home">
+
+        <div class="imgtxt">
+            <div class="img">
+                <img src="../imgs/gamers.jpg" alt="All gamers">
+            </div>
+            <div class="welcome">
+                <h1>Welcome To GamerSpot</h1>
+                <p>GamerSpot, An E-sports team found by FlicKShoT (Ayaan Mohammed). E-sports is a form of competition using video games. Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players,
+                    individually or as teams.</p>
+            </div>
+            <div class="jbtn">
+                <a href="" class="btn">Join the team now</a>
+            </div>
+        </div>
+        <div class="why">
+            <h1>Why GamerSpot?</h1>
+            <div class=pandimg>
+                <p>We have a course of training at cost of only at ₹1000 per head. We also provide the laptop and PC for gaming at free. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo illum, corporis ipsa voluptates, reprehenderit fuga, necessitatibus
+                    ad earum odio exercitationem rem recusandae optio molestiae! </p>
+
+                <img src="../imgs/logo.png" alt="">
+            </div>
+
+            <div class="ogcont">
+                <h1 class="og">Our Gamers</h1>
+                <img src="../imgs/arrow_right.png" alt="checkout" class="ogimg" id="ogbtn" onclick="showcards()">
+            </div>
+            <div class="cards">
+                <div class="card" id="card1">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+
+                        <a href="">More --></a>
+                </div>
+                <div class="card" id="card2">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+                </div>
+                <div class="card" id="card3">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+
+                </div>
+                <!-- <div class="card" id="card4">
+                <img src="../imgs/ujjwal.jfif" alt="">
+                <h4>Ujjwal Chaurasia</h6>
+
+            </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="row1" id="row_1">
+        <div class="ourgamers" id="ourgamerscard">
+            <div class="cards2">
+                <div class="card" id="card1">
+                    <img src="../imgs/ujjwal.jfif">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+
+                        <a href="">More --></a>
+                </div>
+                <div class="card" id="card2">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+                </div>
+                <div class="card" id="card3">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+
+                </div>
+            </div>
+            <div class="row2" id="row_2">
+                <div class="card" id="card4">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+                </div>
+                <div class="card" id="card5">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+                </div>
+                <div class="card" id="card6">
+                    <img src="../imgs/ujjwal.jfif" alt="">
+                    <h4>Ujjwal Chaurasia</h6>
+                        <p>Ujjwal Chaurasia named his YouTube channel as Techno Gamerz because his plan was to publish tech and gaming videos on it. Initially, he wanted to publish the unboxing videos of gadgets but later, he realised that he is way more
+                            interested in gaming rather than in unboxing or technology, so he published only gaming videos on Techno Gamerz. Initially, Ujjwal Chaurasia didn’t have sufficient knowledge of shooting videos. He even didn’t know about screen
+                            recording as he used to operate a phone and record its screen with another phone.</p>
+                        <a href="">More --></a>
+                </div>
+            </div>
+
+        </div>
+        <script src="../js/gamers.js"></script>
+</body>
+
+</html>
